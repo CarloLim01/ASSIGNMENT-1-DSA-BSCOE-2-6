@@ -1,7 +1,6 @@
 # Assignment 1:
 # Create a program that will print your nickname using only asterisk character (*).
 
-
 import time 
 
 def asterisk():
@@ -43,7 +42,6 @@ def asterisk():
             if ((j==0 or j==4) and (i!=0 and i!=4)) or ((i==0 or i==4) and (j>0 and j<4)):
                 printO[i][j] = "\033[1;35;1m*\033[0m"
 
-
     for i in range(5):
         for j in range(5):
             print(printC[i] [j],end=" ")
@@ -64,7 +62,6 @@ def asterisk():
 def start():
     time.sleep(1)
     print("\t\t\033[1;37;1m   >>> MY NICKNAME IS <<<\033[0m\n\n")
-
 
 def end():
     time.sleep(1)
